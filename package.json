@@ -1,0 +1,26 @@
+{
+  "name": "tjs_simple_http",
+  "version": "1.0.0",
+  "description": "Simple Http Assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"No Tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjl7357/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "TJ Larson",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/tjl7357/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/tjl7357/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
